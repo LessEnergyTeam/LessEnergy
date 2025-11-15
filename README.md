@@ -79,12 +79,6 @@ Actualmente en desarrollo como parte del challenge de Landing Page, aplicando el
 - `develop`
 - `feature/...`
 
----
-
-##  Contacto
-Si deseas colaborar o explorar el proyecto:
-
- https://github.com/LessEnergyTeam
 
 
 
