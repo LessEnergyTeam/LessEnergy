@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # LessEnergy – Landing Page
 
 LessEnergy es una solución digital enfocada en ayudar a las personas a optimizar y reducir su consumo energético a través de monitoreo, análisis inteligente y recomendaciones personalizadas mediante IA.
@@ -84,11 +84,7 @@ Actualmente en desarrollo como parte del challenge de Landing Page, aplicando el
 ##  Contacto
 Si deseas colaborar o explorar el proyecto:
 
-👉 https://github.com/LessEnergyTeam
+ https://github.com/LessEnergyTeam
 
 
-
-=======
-# LessEnergy
->>>>>>> 745a24605594759fb68698650a73c5e2264d3124
 
