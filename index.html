@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page_title">LessEnergy - Ahorra Energía</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#inicio" class="logo" data-i18n="logo">
+                <i class="fa-solid fa-leaf"></i>
+                LessEnergy
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio" data-i18n="nav_inicio">Inicio</a></li>
+                <li><a href="#como-funciona" data-i18n="nav_funciona">Como Funciona</a></li>
+                <li><a href="#planes" data-i18n="nav_planes">Planes</a></li>
+                <li><a href="#nosotros" data-i18n="nav_nosotros">Nosotros</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="btn-primary" data-i18n="nav_unete">Únete!</button>
+                <div class="lang-dropdown-container">
+                  <a href="#" class="lang-selector current-lang" id="langToggle">
+                  ESP <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                <div class="lang-options" id="langOptions">
+                  <a href="#" data-lang="es">ESP</a>
+                  <a href="#" data-lang="en">ENG</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="inicio">
+            
+            <div class="hero-content">
+                <h1 data-i18n-split="hero_title">
+                    <span data-i18n="hero_title_p1">Ahorra</span> <span class="text-green" data-i18n="hero_title_p2">Energía</span> y 
+                    <span class="text-highlight-black">
+                        <i class="fa-solid fa-sack-dollar"></i><span data-i18n="hero_title_p3">Dinero</span>
+                    </span> con 
+                    <span class="text-blue" data-i18n="hero_title_p4">Inteligencia Artificial</span>
+                </h1>
+                <p data-i18n="hero_desc">
+                    Cuida tu consumo energético, detecta y corrige fallos 
+                    en las facturas con nosotros.
+                </p>
+                <button class="btn-secondary" data-i18n="hero_btn">Quiero intentar</button>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number green">60%</span>
+                        <span class="stat-label" data-i18n="stat_ahorro">Ahorro Promedio</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number blue">24/7</span>
+                        <span class="stat-label" data-i18n="stat_monitoreo">Monitoreo</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number yellow">AI</span>
+                        <span class="stat-label" data-i18n="stat_recs">Recomendaciones</span>
+                    </div>
+                </div>
+
+                </div>
+
+            <div class="hero-chart-container">
+                <div class="stat-card" id="ahorro-card">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span data-i18n="card_ahorro">Ahorro: S/120/mes</span>
+                </div>
+
+                <div class="chart-wrapper">
+                    <div class="chart-header">
+                        <h3 data-i18n="chart_title">Consumo semanal</h3>
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <p class="total-kwh">61.1 kWh</p>
+
+                    <div class="bar-chart">
+                    </div>
+                </div>
+
+                <div class="stat-card" id="consumo-card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span data-i18n="card_consumo">Consumo: -25%</span>
+                </div>
+
+                <div class="bg-stripes"></div>
+            </div>
+        </section>
+
+        <section class="features container">
+
+            <div class="feature-row">
+                <div class="feature-content">
+                    <h2 data-i18n="feat1_title">Ahorra más</h2>
+                    <p data-i18n="feat1_desc">Te ayudamos a estabilizar tu consumo de energía para que puedas encontrar errores en tu factura de luz</p>
+                </div>
+                <div class="feature-image">
+                    <img src="assets/ahorra-mas.png" alt="Mano depositando una moneda en una alcancía de cerdo">
+                </div>
+            </div>
+
+            <div class="feature-row reverse">
+                <div class="feature-image">
+                    <img src="assets/inteligencia-artificial.png" alt="Robot con un carrito de compras">
+                </div>
+                <div class="feature-content">
+                    <h2 data-i18n="feat2_title">Inteligencia artificial</h2>
+                    <p data-i18n="feat2_desc">Brindamos recomendaciones personalizadas generadas por IA para que puedas reducir eficientemente tu gasto energético</p>
+                </div>
+            </div>
+
+            <div class="feature-row">
+                <div class="feature-content">
+                    <h2 data-i18n="feat3_title">Fácil de usar</h2>
+                    <p data-i18n="feat3_desc">Usamos interfaces intuitivas, que se adaptan a todo tipo de edades y niveles tecnológicos.</p>
+                </div>
+                <div class="feature-image">
+                    <img src="assets/facil-de-usar.png" alt="Mano sosteniendo un teléfono con la aplicación LessEnergy">
+                </div>
+            </div>
+        </section>
+        <section class="how-it-works container" id="como-funciona">
+            
+            <h2 data-i18n="how_title">¿Cómo Funciona LessEnergy?</h2>
+            <p class="subtitle" data-i18n="how_subtitle">En solo 3 pasos simples, estarás ahorrando energía y dinero en tu hogar</p>
+
+            <div class="steps-container">
+
+                <div class="step-item">
+                    <div class="step-number-container">
+                        <div class="step-number step-1">1</div>
+                    </div>
+                    <div class="step-box box-1">
+                        <i class="fa-solid fa-window-maximize"></i>
+                        <span data-i18n="step1_box">Entra a nuestra web y Regístrate</span>
+                    </div>
+                    <h3 data-i18n="step1_h3">Registro</h3>
+                    <p data-i18n="step1_p">Regístrate en LessEnergy creando tu cuenta y así podrás iniciar sesión y guardar tu progreso.</p>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number-container">
+                        <div class="step-number step-2">2</div>
+                    </div>
+                    <div class="step-box box-2">
+                        <i class="fa-solid fa-wifi"></i>
+                        <span data-i18n="step2_box">Conecta los Sensores IoT</span>
+                    </div>
+                    <h3 data-i18n="step2_h3">Configuración</h3>
+                    <p data-i18n="step2_p">Instala nuestros sensores IoT en tus electrodomésticos principales. Son fáciles de conectar y no requieren conocimientos técnicos.</p>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number-container">
+                        <div class="step-number step-3">3</div>
+                    </div>
+                    <div class="step-box box-3">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span data-i18n="step3_box">Monitorea y Ahorra</span>
+                    </div>
+                    <h3 data-i18n="step3_h3">Optmización</h3>
+                    <p data-i18n="step3_p">Recibe recomendaciones personalizadas de nuestra IA y comienza a ver el ahorro en tu próxima factura eléctrica.</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="plans container" id="planes">
+            
+            <h2 data-i18n="plans_title">Planes Diseñados Para Ti</h2>
+            <p class="subtitle" data-i18n="plans_subtitle">Elige el plan que mejor se adapte a tu hogar y comienza a ahorrar desde el primer día</p>
+
+            <div class="plans-container">
+
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3 data-i18n="plan1_title">Básico</h3>
+                        <p data-i18n="plan1_desc">Perfecto para apartamentos pequeños</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="price-main free" data-i18n="plan1_price">Gratis</span>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li data-i18n="plan1_feat1"><i class="fa-solid fa-check"></i> Hasta 5 sensores IoT</li>
+                        <li data-i18n="plan1_feat2"><i class="fa-solid fa-check"></i> Monitoreo básico 24/7</li>
+                        <li data-i18n="plan1_feat3"><i class="fa-solid fa-check"></i> Alertas por email</li>
+                        <li data-i18n="plan1_feat4"><i class="fa-solid fa-check"></i> Reportes mensuales</li>
+                        <li data-i18n="plan1_feat5"><i class="fa-solid fa-check"></i> Soporte por chat</li>
+                    </ul>
+
+                    <button class="btn-dark" data-i18n="plan_btn">Comenzar Ahora</button>
+                </div>
+
+                <div class="plan-card popular">
+                    <div class="popular-badge" data-i18n="plan_badge">Más Popular</div>
+                    
+                    <div class="plan-header">
+                        <h3 data-i18n="plan2_title">Profesional</h3>
+                        <p data-i18n="plan2_desc">Ideal para casas familiares</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="price-main">S/10</span>
+                        <span class="price-secondary" data-i18n="plan2_unit">mensual</span>
+                    </div>
+
+                    <ul class="plan-features">
+                        <li data-i18n="plan2_feat1"><i class="fa-solid fa-check"></i> Hasta 15 sensores IoT</li>
+                        <li data-i18n="plan2_feat2"><i class="fa-solid fa-check"></i> Monitoreo avanzado 24/7</li>
+                        <li data-i18n="plan2_feat3"><i class="fa-solid fa-check"></i> IA con recomendaciones personalizadas</li>
+                        <li data-i18n="plan2_feat4"><i class="fa-solid fa-check"></i> Alertas push y email</li>
+                        <li data-i18n="plan2_feat5"><i class="fa-solid fa-check"></i> Reportes semanales y mensuales</li>
+                        <li data-i18n="plan2_feat6"><i class="fa-solid fa-check"></i> Análisis de facturas</li>
+                        <li data-i18n="plan2_feat7"><i class="fa-solid fa-check"></i> Soporte prioritario</li>
+                    </ul>
+
+                    <button class="btn-dark" data-i18n="plan_btn">Comenzar Ahora</button>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3 data-i18n="plan3_title">Empresarial</h3>
+                        <p data-i18n="plan3_desc">Para oficinas y comercios</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="price-main">S/20</span>
+                        <span class="price-secondary" data-i18n="plan3_unit">mensual</span>
+                    </div>
+
+                    <ul class="plan-features">
+                        <li data-i18n="plan3_feat1"><i class="fa-solid fa-check"></i> Sensores IoT ilimitados</li>
+                        <li data-i18n="plan3_feat2"><i class="fa-solid fa-check"></i> Dashboard empresarial</li>
+                        <li data-i18n="plan3_feat3"><i class="fa-solid fa-check"></i> IA avanzada con ML</li>
+                        <li data-i18n="plan3_feat4"><i class="fa-solid fa-check"></i> API personalizada</li>
+                        <li data-i18n="plan3_feat5"><i class="fa-solid fa-check"></i> Reportes personalizados</li>
+                        <li data-i18n="plan3_feat6"><i class="fa-solid fa-check"></i> Gestión multi-ubicación</li>
+                        <li data-i18n="plan3_feat7"><i class="fa-solid fa-check"></i> Soporte 24/7 dedicado</li>
+                    </ul>
+
+                    <button class="btn-dark" data-i18n="plan_btn">Comenzar Ahora</button>
+                </div>
+
+            </div>
+
+            <div class="legal-info">
+                <span data-i18n="legal1"><i class="fa-solid fa-shield-halved"></i> Garantía de 30 días</span>
+                <span data-i18n="legal2"><i class="fa-solid fa-credit-card"></i> Sin tarjeta de crédito</span>
+                <span data-i18n="legal3"><i class="fa-solid fa-xmark"></i> Cancela cuando quieras</span>
+            </div>
+        </section>
+        <section class="join-us-section" id="nosotros">
+        <div class="container join-us-container">
+            
+            <div class="join-image">
+                <img src="assets/pareja-registro.jpg" alt="Pareja sonriente mirando un teléfono">
+            </div>
+
+            <div class="join-form-wrapper">
+                
+                <h2 data-i18n="join_title">Únete a nosotros</h2>
+                <p class="subtitle" data-i18n-split="join_subtitle">
+                    <span data-i18n="join_subtitle_p1">Crea una cuenta y comienza a</span> 
+                    <span class="text-green-light" data-i18n="join_subtitle_p2">ahorrar</span>
+                </p>
+
+                <form class="join-form">
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre" data-i18n="form_nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido" data-i18n="form_apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email" data-i18n="form_email"><i class="fa-solid fa-envelope"></i> E-mail:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono" data-i18n="form_tel"><i class="fa-solid fa-phone"></i> Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        
+                        <div class="form-group password-confirm">
+                           <label for="confirm-password" data-i18n="form_conf_pass">Confirmar contraseña:</label>
+                           <input type="password" id="confirm-password" name="confirm-password">
+                           <i class="fa-solid fa-eye eye-icon" id="togglePassword"></i>
+                        </div>
+
+                        <div class="form-group">
+                           <label for="password" data-i18n="form_pass"><i class="fa-solid fa-lock"></i> Contraseña:</label>
+                           <input type="password" id="password" name="password">
+                           <i class="fa-solid fa-eye eye-icon" id="togglePasswordMain"></i>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit" data-i18n="form_btn">Unirme</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
