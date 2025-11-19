@@ -1,7 +1,7 @@
 
 # LessEnergy – Landing Page
 
-LessEnergy es una solución digital enfocada en ayudar a las personas a optimizar y reducir su consumo energético a través de monitoreo, análisis inteligente y recomendaciones personalizadas mediante IA.
+LessEnergy es unas solución digital enfocada en ayudar a las persoans a optimizar y reducir su consumo energético a través de monitoreo, análisis inteligente y recomendaciones personalizadas mediante IA.
 
 ## Objetivo del Proyecto
 Crear una landing page funcional, clara y atractiva que presente los beneficios que brinda LessEnergy, su propuesta de valor y las herramientas que ofrece para lograr un consumo energético más eficiente.
