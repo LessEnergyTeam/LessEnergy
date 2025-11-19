@@ -4,7 +4,7 @@
 LessEnergy es una solución digital enfocada en ayudar a las personas a optimizar y reducir su consumo energético a través de monitoreo, análisis inteligente y recomendaciones personalizadas mediante IA.
 
 ## Objetivo del Proyecto
-Crear una landing page funcional, clara y atractiva que presente los beneficios de LessEnergy, su propuesta de valor y las herramientas que ofrece para lograr un consumo energético más eficiente.
+Crear una landing page funcional, clara y atractiva que presente los beneficios que brinda LessEnergy, su propuesta de valor y las herramientas que ofrece para lograr un consumo energético más eficiente.
 
 Este proyecto se desarrolla aplicando GitFlow, buenas prácticas de organización y control de versiones, además de una estructura de carpetas definida para un flujo de trabajo profesional.
 
